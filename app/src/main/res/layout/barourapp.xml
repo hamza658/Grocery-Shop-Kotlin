@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logo6"
+        android:layout_width="77dp"
+        android:layout_height="78dp"
+
+        app:srcCompat="@drawable/fourniss"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/titre6"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="36dp"
+        android:background="?attr/colorOnPrimary"
+
+        android:text="@string/Grocery"
+        android:textColor="#51CA5B"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/logo6"
+        tools:layout_editor_absoluteY="7dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

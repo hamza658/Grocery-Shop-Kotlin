@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="357dp"
+        android:layout_height="426dp"
+
+        app:cardCornerRadius="15dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="488dp">
+
+            <LinearLayout
+                android:id="@+id/ssss"
+                android:layout_width="357dp"
+                android:layout_height="488dp"
+                android:background="?attr/colorOnPrimary"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="#F34336"
+                    android:gravity="center"
+                    android:text="@string/Addpromotion"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#36474F"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ayyyyy"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/DialogPrix"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="?attr/colorOnPrimary"
+
+                        android:hint="@string/Reduction"
+                        android:textColorHint="#A1A1A1"
+                        app:boxStrokeColor="@color/black"
+                        app:boxStrokeWidth="1dp"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconMode="clear_text"
+                        app:hintAnimationEnabled="true"
+                        app:hintEnabled="true"
+                        app:hintTextColor="@color/black"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:startIconDrawable="@drawable/user_icon"
+                        app:startIconTint="@color/green1">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_Prix"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:maxLength="25" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ayy"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/Dialogproduct"
+                           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="?attr/colorOnPrimary"
+
+                        android:hint="@string/Product"
+                        android:textColorHint="#A1A1A1"
+                        app:boxStrokeColor="@color/black"
+                        app:boxStrokeWidth="1dp"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconMode="clear_text"
+                        app:hintAnimationEnabled="true"
+                        app:hintEnabled="true"
+                        app:hintTextColor="@color/black"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:startIconDrawable="@drawable/user_icon"
+                        app:startIconTint="@color/green1">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_product"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:maxLength="25" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aaqq"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/Dialogduaration"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="?attr/colorOnPrimary"
+
+                        android:hint="@string/Duration"
+                        android:textColorHint="#A1A1A1"
+                        app:boxStrokeColor="@color/black"
+                        app:boxStrokeWidth="1dp"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconMode="clear_text"
+                        app:hintAnimationEnabled="true"
+                        app:hintEnabled="true"
+                        app:hintTextColor="@color/black"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:startIconDrawable="@drawable/address_icon"
+                        app:startIconTint="@color/green1">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_duaration"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:maxLength="25" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aaee"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/BtnSaveAddPromotion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#36474F"
+                    android:text="@string/Save"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</ScrollView>

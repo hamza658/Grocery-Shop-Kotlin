@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Activity.Authentication">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="421dp"
+        android:layout_height="373dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_3"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="114dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregister"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="114dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/btnregister"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="337dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="337dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:text="Or Login With"
+        app:layout_constraintStart_toEndOf="@+id/divider5"
+        app:layout_constraintTop_toBottomOf="@+id/btnregister" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="268dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:text="Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:drawableStart="@drawable/ic_google"
+        android:drawablePadding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="268dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_facebook"
+        android:drawablePadding="10dp"
+        android:text="Facebook"
+        android:textColor="#FFFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

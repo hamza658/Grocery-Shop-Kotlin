@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorOnPrimary"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        app:contentPadding="5dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/CarditemRecomm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/PicRecomm"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/img_beach"
+                android:scaleType="fitXY"
+                android:src="@drawable/raduisimage" />
+
+            <TextView
+                android:id="@+id/PlaceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Type"
+                android:textColor="?attr/colorOnSecondary"                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/quantite"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Quantite"
+                android:textColor="?attr/colorOnSecondary"                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/LieuxPlace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:text="Prix"
+                        android:textColor="?attr/colorOnSecondary"                        android:textSize="8sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/numbComment"
+                        android:layout_width="27dp"
+                        android:layout_height="14dp"
+                        android:layout_marginStart="2dp"
+                        android:background="@drawable/gradiantcolor"
+                        android:gravity="center"
+                        android:text="150"
+                        android:textColor="#F36940"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

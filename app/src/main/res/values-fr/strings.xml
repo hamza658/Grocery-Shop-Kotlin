@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Shop</string>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++ Début de la connexion ++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <string name="DontHaveAccount">Vous n\'avez pas de compte? <font color='#FA181B'>Rejoignez-nous</font></string>
+    <string name="Copyright">Découvrez la Tunisie © 2022  <font color='#FA181B'>réalisé avec ❤</font></string>
+    <string name="AlreadyHaveAccount">Vous avez déjà un compte ? <font color='#FA181B'>Connexion</font></string>
+    <string name="DidntreceveCode">Vous n\'avez pas reçu le code ? <font color='#FA181B'>Renvoyer</font></string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="login">Connexion</string>
+    <string name="signup">Inscription</string>
+    <string name="email">E-mail</string>
+    <string name="age">Age</string>
+    <string name="updage">Modifier votre age</string>
+    <string name="password">Mot de passe</string>
+    <string name="Confirmpassword">Confirmer le mot de passe</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="mustNotBeEmpty">Ne doit pas être vide !</string>
+    <string name="EmailMalformed">E-mail malformé !</string>
+    <string name="BacktoPageLogin">Retour à la page de connexion ? <font color='#FA181B'>Connexion</font></string>
+    <!-- TODO: Supprimez ou modifiez ce texte de remplacement -->
+    <string name="WhatdouWant">Que recherchez-vous ?</string>
+    <!-- TODO: Supprimez ou modifiez ce texte de remplacement -->
+    <string name="home">Accueil</string>
+    <string name="explorer">Explorer</string>
+    <string name="add">Ajouter</string>
+    <string name="favorite">Favori</string>
+    <string name="profile">Profil</string>
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="edit_profil">Modifier le profil</string>
+    <string name="about_me">À propos de moi</string>
+    <string name="nom">Nom</string>
+    <string name="bio">Bio</string>
+    <string name="change_password">Changer de mot de passe ?</string>
+    <string name="type_something_cool_here">Saisissez quelque chose de cool ici !</string>
+    <string name="we_are_trying_to_connect_Please_wait">Nous essayons de nous connecter. Veuillez patienter...</string>
+    <string name="this_is_a_custom_toast">Ceci est un toast personnalisé</string>
+    <string name="informations">INFORMATIONS</string>
+    <string name="no_internet">Pas de connexion Internet :(</string>
+    <string name="you_need_to_be_connected_to_the_internet">Vous devez être connecté à Internet</string>
+    <string name="confirm_email_address">Confirmer l\'adresse e-mail</string>
+    <string name="you_need_to_check_your_inbox_n_to_verify_your_email">Vous devez vérifier votre boîte de réception pour vérifier votre e-mail</string>
+    <string name="continuer">Continuer</string>
+    <string name="don_t_worry_it_happens_pleaser_enter_the_adress_associated_with_your_account">Ne vous inquiétez pas ! Cela arrive. Veuillez saisir l\'adresse associée à votre compte.</string>
+    <string name="verify">Vérifier</string>
+    <string name="verification_code">Code de vérification</string>
+    <string name="we_have_send_code_to_your_e_mail_Please_type_code_in_here">Nous avons envoyé un code à votre adresse e-mail, veuillez saisir le code ici</string>
+    <string name="save">Enregistrer</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
+    <string name="modifier_votre_nom">Modifier votre nom</string>
+    <string name="cancel">Annuler</string>
+    <!-- TODO: Supprimez ou modifiez ce texte de remplacement -->
+    <string name="hello_blank_fragment" translatable="false">Bonjour fragment vierge</string>
+    <string name="user_name">Nom </string>
+    <string name="user_bio">Bio </string>
+    <string name="recom">Le plus important</string>
+    <string name="categorie">Catégorie</string>
+    <string name="show_all">Tout afficher</string>
+
+
+
+
+    <string name="Addfournisseur">Ajouter Un Fournisseur</string>
+    <string name="spécialité">Spécialité</string>
+    <string name="fullname">Nom et prénom</string>
+    <string name="Location">Emplacement</string>
+    <string name="Phone">Numéro De Téléphone</string>
+    <string name="Save">Enregistrer</string>
+
+    <string name="Addpromotion">Ajouter une promotion</string>
+    <string name="Reduction">Réduction</string>
+    <string name="Product">Produit</string>
+    <string name="Duration">Durée</string>
+
+    <string name="Addproduit">Ajouter Produit</string>
+    <string name="Type">Type</string>
+    <string name="Quantite">Quantité</string>
+    <string name="Price">Prix</string>
+
+    <string name="Updateproduct">Mettre à jour le produit</string>
+
+    <string name="Call">Appel</string>
+    <string name="Delete">Supprimer</string>
+
+    <string name="Grocery">Epicerie</string>
+
+
+    <string name="Login">Connexion</string>
+    <string name="Register">S\'inscrire</string>
+
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++ Fin de la connexion ++++++++++++++++++++++++++++++++++++++++++++++++++-->
+</resources>

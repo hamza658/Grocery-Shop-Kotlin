@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:background="?attr/colorOnPrimary"
+
+    android:layout_margin="10dp"
+    app:cardElevation="8dp"
+    android:id="@+id/cardView">
+
+    <LinearLayout
+        android:id="@+id/carditemNeedy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA44DC39"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="151dp"
+                android:layout_height="78dp"
+                android:layout_margin="6dp"
+                android:elevation="9dp"
+                android:src="@drawable/avatar2"
+                app:civ_border_color="#FFF9F9"
+                app:civ_border_width="2dp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/SituationNeedy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Situation"
+            android:textColor="#596c75"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nomNeedy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Name : NAME_HERE"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/user_icon" />
+
+        <TextView
+            android:id="@+id/locationNeedy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="LOCATION : LOCATION_HERE"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+
+        <TextView
+            android:id="@+id/phoneNeedy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="NUMERO : NUMERO_HERE"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/ic_baseline_local_phone_24" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
